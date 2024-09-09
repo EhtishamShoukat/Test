@@ -18,7 +18,7 @@ function palinDrome(str) {
      return convertedStr === convertedStr.split('').reverse().join('');
 }
 console.log(palinDrome("Boy, ehtisham, shoukat, ali"))
-console.log(palinDrome("javaScript"));
+console.log(palinDrome("pop"));
 console.log(palinDrome("hello")); 
 //Write a JavaScript function that removes duplicates from an array.
 //input  ⁠= [1,  2,  "hello",  "world",  { name: "Alice", age: 30 },  { name: "Alice", age: 30 },   [1, 2, 3],  [1, 2, 3],  "hello",  3,  [4, 5, { nested: "object" }],  [4, 5, { nested: "object" }],  { nested: [1, 2, 3] },  { nested: [1, 2, 3] }]
