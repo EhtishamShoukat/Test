@@ -12,6 +12,11 @@ class Dog extends Animal {
         console.log(`${this.name} barks.`);
     }
 }
+let animal = new Animal('memals');
+animal.speak(); 
+
+let dog = new Dog('dog');
+dog.speak(); 
 //Write a JavaScript function that checks if a string is a palindrome (reads the same backward as forward).
 function palinDrome(str) {
    const convertedStr = str.toLowerCase().replace();
